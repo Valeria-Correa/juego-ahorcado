@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    background: url(imagen/fondo.png) no-repeat center;
+    background-size: cover;
+    font-family: "carter+one", Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #15cf88;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo2{
+    width: 30px;
+    margin-top: 2px;
+    margin-left: 0;
+    margin-right: 100%;
+}
+h1{
+    margin-top: 0;
+    margin-right: 26%;
+    color: rgb(207, 241, 230);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255,255,255,.7);
+    display: flex;
+    gap: 30px;
+    border-radius: 15px;
+}
+#imagen{
+    width: 200px;
+}
+
+#jugar{
+    background: linear-gradient(rgb(10, 226, 125),rgb(117, 212, 160), rgb(184, 241, 224));
+    color: rgb(236, 243, 245);
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 270px;
+    height: 50px;
+    margin: 10px;
+    transition: .2s;
+}
+
+#jugar:hover{
+    background: linear-gradient(rgb(10, 226, 125),rgb(117, 212, 160), rgb(184, 241, 224));
+    color: rgb(236, 243, 245);
+    transform: scale(1.1);
+    cursor: pointer;  
+}
+
+#palabra_a_adivinar{
+    margin-top: 13%;
+    height: 3em;
+    color: #035f3c;
+}
+
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom:2px solid rgb(16, 207, 150);
+    width: 30px;
+    text-align: center;
+    margin: 6px;
+    display: inline-block;
+}
+
+#resultado{
+    color: #035f3c;
+}
+
+#letras{
+    background: linear-gradient(rgb(10, 226, 125),rgb(117, 212, 160), rgb(184, 241, 224));
+    color: rgb(216, 32, 139);
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    margin-right: 48% ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    
+}
+#letras button:hover{
+    background: linear-gradient(rgb(10, 226, 125),rgb(117, 212, 160), rgb(184, 241, 224));
+    color: rgb(216, 32, 139);
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 28px;
+    padding: 6px 0;
+    text-align: center;
+    transition: .2s;
+}
+
+#letras button{
+    background: linear-gradient(rgb(10, 226, 125),rgb(117, 212, 160), rgb(184, 241, 224));
+    color: antiquewhite;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.copy {
+    font-size: 14px;
+    margin-left: 21%;
+}
+
+.nombre {
+    color: #0A3871;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25%;
+}
+
+.redes a {
+    font-size: 25px;
+    color: #0A3871;
+    transition: .2s;
+}
+
+.redes a:hover {
+    transform: scale(1.3);
+}
